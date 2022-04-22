@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./src/scss/global.scss:./src/style/css/style.css",
+    "sass": "sass --watch ./src/scss/global.scss:./src/style/css/style.css ",
+    "sass-min": "sass ./src/scss/global.scss:./src/style/css/style.min.css --style compressed",
     "prefix": "postcss ./src/style/style.css --use autoprefixer -d .src/style/prefixed/"
   },
   "author": "",
